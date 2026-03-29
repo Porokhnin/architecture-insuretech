@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6" pages="2">
   <diagram name="adr" id="0w2oBmGsbdYE2PBAerrA">
-    <mxGraphModel dx="4667" dy="3802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5435" dy="4329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-kysRog4aEAZWxmScUQe-0" />
         <mxCell id="-kysRog4aEAZWxmScUQe-1" parent="-kysRog4aEAZWxmScUQe-0" />
@@ -16,7 +16,7 @@
         </object>
         <object placeholders="1" c4Name="core-app" c4Type="Container" c4Technology="Kotlin, SpringBoot" c4Description="Монолитное приложение:&#xa;• отображает данные о доступных страховых продуктах&#xa;• оформляет новые страховки&#xa;• отображает информацию о купленных страховках" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-4">
           <mxCell parent="-kysRog4aEAZWxmScUQe-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#FFD966;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeWidth=4;" vertex="1">
-            <mxGeometry height="150" width="280" x="480" y="520" as="geometry" />
+            <mxGeometry height="150" width="280" x="500" y="493.5" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="InsureTech Web" c4Container="Container" c4Technology="JavaScript, React" c4Description="Веб-приложение InsureTech" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-5">
@@ -25,13 +25,13 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="1. Получения тарифов&#xa;2. Создание заявок на страховки" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-6">
-          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="tgdYflfAzIRZMizsvtaO-0" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="-kysRog4aEAZWxmScUQe-4">
+          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="UWbKbaMJiszxi6BcYqIE-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="-kysRog4aEAZWxmScUQe-4">
             <mxGeometry relative="1" width="240" as="geometry">
               <Array as="points">
-                <mxPoint x="580" y="350" />
+                <mxPoint x="579" y="350" />
                 <mxPoint x="580" y="350" />
               </Array>
-              <mxPoint x="520" y="210" as="sourcePoint" />
+              <mxPoint x="580.0175438596489" y="180" as="sourcePoint" />
               <mxPoint x="790" y="290" as="targetPoint" />
             </mxGeometry>
           </mxCell>
@@ -63,16 +63,16 @@
             <mxGeometry height="120" width="240" x="-110" y="643.5" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Оформление страховок" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-11">
-          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="-kysRog4aEAZWxmScUQe-10" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=none;" target="tgdYflfAzIRZMizsvtaO-4">
-            <mxGeometry relative="1" width="240" as="geometry">
-              <mxPoint x="-1" as="offset" />
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Оформление&#xa;страховок" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-11">
+          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="-kysRog4aEAZWxmScUQe-10" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=none;" target="UWbKbaMJiszxi6BcYqIE-0">
+            <mxGeometry relative="1" width="240" x="-0.3333" y="-1" as="geometry">
+              <mxPoint as="offset" />
               <Array as="points">
-                <mxPoint x="200" y="702" />
-                <mxPoint x="200" y="702" />
+                <mxPoint x="250" y="704" />
+                <mxPoint x="250" y="704" />
               </Array>
               <mxPoint x="50" y="522" as="sourcePoint" />
-              <mxPoint x="250" y="617" as="targetPoint" />
+              <mxPoint x="310" y="702" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
@@ -110,7 +110,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получение информации &#xa;по продуктам и тарифам" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-17">
-          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="-kysRog4aEAZWxmScUQe-4" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=4;endFill=1;strokeColor=#CC0000;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="-kysRog4aEAZWxmScUQe-15">
+          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="-kysRog4aEAZWxmScUQe-4" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=4;endFill=1;strokeColor=#CC0000;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=none;" target="-kysRog4aEAZWxmScUQe-15">
             <mxGeometry relative="1" width="240" as="geometry">
               <mxPoint x="-1" as="offset" />
               <Array as="points">
@@ -201,7 +201,7 @@
             <mxGeometry relative="1" width="240" x="0.3571" as="geometry">
               <mxPoint as="offset" />
               <Array as="points">
-                <mxPoint x="440" y="567" />
+                <mxPoint x="440" y="550" />
                 <mxPoint x="440" y="487" />
               </Array>
               <mxPoint x="310" y="712" as="sourcePoint" />
@@ -223,12 +223,12 @@
         </object>
         <object placeholders="1" c4Name="client-info" c4Type="Container" c4Technology="Kotlin, SpringBoot" c4Description="Сервис для учёта клиентских данных" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-29">
           <mxCell parent="-kysRog4aEAZWxmScUQe-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#FFD966;metaEdit=1;resizable=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeWidth=4;" vertex="1">
-            <mxGeometry height="150" width="240" x="1730" y="190" as="geometry" />
+            <mxGeometry height="150" width="240" x="1730" y="205" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="ins-comp-settlement-db" c4Container="Container" c4Technology="PostgreSQL" c4Description="БД используется для хранения данных клиентов: ФИО, телефон, паспорт и др. Информация необходима для оформления страховок" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-30">
           <mxCell parent="-kysRog4aEAZWxmScUQe-1" style="shape=cylinder3;size=6.172056136592715;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
-            <mxGeometry height="120" width="240" x="2120" y="205" as="geometry" />
+            <mxGeometry height="120" width="240" x="2120" y="220" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="TCP" c4Description="Работа с данными" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-31">
@@ -241,7 +241,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получение/сохранение информации о клиентах" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-32">
-          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="-kysRog4aEAZWxmScUQe-4" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=4;endFill=1;strokeColor=#CC0000;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="-kysRog4aEAZWxmScUQe-29">
+          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="-kysRog4aEAZWxmScUQe-4" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=4;endFill=1;strokeColor=#CC0000;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=none;" target="-kysRog4aEAZWxmScUQe-29">
             <mxGeometry relative="1" width="240" x="0.2053" as="geometry">
               <mxPoint as="offset" />
               <Array as="points">
@@ -253,32 +253,26 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Получение/сохранение&#xa; информации о клиентах" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="-kysRog4aEAZWxmScUQe-33">
-          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="tgdYflfAzIRZMizsvtaO-0" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="-kysRog4aEAZWxmScUQe-29">
+          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="UWbKbaMJiszxi6BcYqIE-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="-kysRog4aEAZWxmScUQe-29">
             <mxGeometry relative="1" width="240" as="geometry">
               <mxPoint x="-1" as="offset" />
               <Array as="points">
-                <mxPoint x="640" y="200" />
+                <mxPoint x="1850" y="151" />
               </Array>
-              <mxPoint x="740" y="460" as="sourcePoint" />
+              <mxPoint x="640.0175438596489" y="180" as="sourcePoint" />
               <mxPoint x="920" y="290" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="tgdYflfAzIRZMizsvtaO-0" parent="-kysRog4aEAZWxmScUQe-1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0xNiAzMkMyNC44MzY2IDMyIDMyIDI0LjgzNjYgMzIgMTZDMzIgNy4xNjM0NCAyNC44MzY2IDAgMTYgMEM3LjE2MzQ0IDAgMCA3LjE2MzQ0IDAgMTZDMCAyNC44MzY2IDcuMTYzNDQgMzIgMTYgMzJaIiBmaWxsPSIjNTI4MkZGIi8+JiN4YTs8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIzLjI0NjEgMjRWMjAuMDU1N0wyMS44Nzg3IDIxLjE0NjVMMTkuMjIyOSAxNy43NTU5QzE5LjU5MTUgMTcuMjU3NiAxOS44MDk0IDE2LjY0MSAxOS44MDk0IDE1Ljk3MzZDMTkuODA5NCAxNS44NDY0IDE5LjgwMTUgMTUuNzIxMSAxOS43ODYyIDE1LjU5ODFMMjEuMzgxOCAxNC45NzkxTDIyLjAxMzIgMTYuNjI0MUwyMy45OTk1IDEzLjIzMDVMMjAuMjUyNiAxMi4wMzc2TDIwLjg4IDEzLjY3MjFMMTkuMjkxNyAxNC4yODgzQzE4Ljc1MTkgMTMuNDk0OCAxNy44NDE1IDEyLjk3MzYgMTYuODA5NCAxMi45NzM2QzE2Ljc2NzggMTIuOTczNiAxNi43MjY0IDEyLjk3NDQgMTYuNjg1MiAxMi45NzYxTDE1LjkzNyAxMC43MDgyTDE3LjYyMDUgMTAuMTYxMkwxNC4zMzU0IDhMMTIuOTQ4MSAxMS42NzkzTDE0LjYwNTUgMTEuMTQwOEwxNS4zMzc1IDEzLjM1ODlDMTQuNjI3IDEzLjc1OTcgMTQuMDk2MyAxNC40NDE4IDEzLjg5NjMgMTUuMjUzOUwxMy44OTY2IDE1LjI1MjhMMTEuODcxMiAxNS4yNTI0QzExLjU4NzQgMTQuNDk0MSAxMC44NTYyIDEzLjk1NDMgOS45OTg5IDEzLjk1NDNDOC44OTUyMSAxMy45NTQzIDguMDAwNDkgMTQuODQ5IDguMDAwNDkgMTUuOTUyN0M4LjAwMDQ5IDE3LjA1NjQgOC44OTUyMSAxNy45NTExIDkuOTk4OSAxNy45NTExQzEwLjg1NjQgMTcuOTUxMSAxMS41ODc4IDE3LjQxMSAxMS44NzE0IDE2LjY1MjRMMTMuODg2NiAxNi42NTI4QzE0LjA0MDcgMTcuMzE4OSAxNC40MTY2IDE3Ljg5OTcgMTQuOTMyMyAxOC4zMTM5TDE0LjkzMTQgMTguMzEzM0wxNC4wMjkyIDIwLjA4MTFMMTIuNDczNiAxOS4yODU5TDEzLjI2MzEgMjMuMTM4TDE2Ljg0OCAyMS41MjIxTDE1LjI3NTggMjAuNzE4NEwxNi4xOTggMTguOTExM0wxNi4xOTcgMTguOTExMUMxNi4zOTQ3IDE4Ljk1MjEgMTYuNTk5NiAxOC45NzM2IDE2LjgwOTQgMTguOTczNkMxNy4yOTE2IDE4Ljk3MzYgMTcuNzQ3MiAxOC44NTk4IDE4LjE1MDkgMTguNjU3N0wyMC43ODQyIDIyLjAxOTVMMTkuNDA1NSAyMy4xMTkzTDIzLjI0NjEgMjRaTTE2LjgwOTQgMTQuMzczNkMxNy42OTMxIDE0LjM3MzYgMTguNDA5NCAxNS4wODk5IDE4LjQwOTQgMTUuOTczNkMxOC40MDk0IDE2Ljg1NzMgMTcuNjkzMSAxNy41NzM2IDE2LjgwOTQgMTcuNTczNkMxNS45MjU4IDE3LjU3MzYgMTUuMjA5NCAxNi44NTczIDE1LjIwOTQgMTUuOTczNkMxNS4yMDk0IDE1LjA4OTkgMTUuOTI1OCAxNC4zNzM2IDE2LjgwOTQgMTQuMzczNloiIGZpbGw9IndoaXRlIi8+JiN4YTs8L3N2Zz4=;imageBorder=light-dark(#00CC00,#00CC00);labelBorderColor=none;strokeWidth=1;imageBackground=light-dark(#00CC00,#00CC00);" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="570" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="tgdYflfAzIRZMizsvtaO-4" parent="-kysRog4aEAZWxmScUQe-1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0xNiAzMkMyNC44MzY2IDMyIDMyIDI0LjgzNjYgMzIgMTZDMzIgNy4xNjM0NCAyNC44MzY2IDAgMTYgMEM3LjE2MzQ0IDAgMCA3LjE2MzQ0IDAgMTZDMCAyNC44MzY2IDcuMTYzNDQgMzIgMTYgMzJaIiBmaWxsPSIjNTI4MkZGIi8+JiN4YTs8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIzLjI0NjEgMjRWMjAuMDU1N0wyMS44Nzg3IDIxLjE0NjVMMTkuMjIyOSAxNy43NTU5QzE5LjU5MTUgMTcuMjU3NiAxOS44MDk0IDE2LjY0MSAxOS44MDk0IDE1Ljk3MzZDMTkuODA5NCAxNS44NDY0IDE5LjgwMTUgMTUuNzIxMSAxOS43ODYyIDE1LjU5ODFMMjEuMzgxOCAxNC45NzkxTDIyLjAxMzIgMTYuNjI0MUwyMy45OTk1IDEzLjIzMDVMMjAuMjUyNiAxMi4wMzc2TDIwLjg4IDEzLjY3MjFMMTkuMjkxNyAxNC4yODgzQzE4Ljc1MTkgMTMuNDk0OCAxNy44NDE1IDEyLjk3MzYgMTYuODA5NCAxMi45NzM2QzE2Ljc2NzggMTIuOTczNiAxNi43MjY0IDEyLjk3NDQgMTYuNjg1MiAxMi45NzYxTDE1LjkzNyAxMC43MDgyTDE3LjYyMDUgMTAuMTYxMkwxNC4zMzU0IDhMMTIuOTQ4MSAxMS42NzkzTDE0LjYwNTUgMTEuMTQwOEwxNS4zMzc1IDEzLjM1ODlDMTQuNjI3IDEzLjc1OTcgMTQuMDk2MyAxNC40NDE4IDEzLjg5NjMgMTUuMjUzOUwxMy44OTY2IDE1LjI1MjhMMTEuODcxMiAxNS4yNTI0QzExLjU4NzQgMTQuNDk0MSAxMC44NTYyIDEzLjk1NDMgOS45OTg5IDEzLjk1NDNDOC44OTUyMSAxMy45NTQzIDguMDAwNDkgMTQuODQ5IDguMDAwNDkgMTUuOTUyN0M4LjAwMDQ5IDE3LjA1NjQgOC44OTUyMSAxNy45NTExIDkuOTk4OSAxNy45NTExQzEwLjg1NjQgMTcuOTUxMSAxMS41ODc4IDE3LjQxMSAxMS44NzE0IDE2LjY1MjRMMTMuODg2NiAxNi42NTI4QzE0LjA0MDcgMTcuMzE4OSAxNC40MTY2IDE3Ljg5OTcgMTQuOTMyMyAxOC4zMTM5TDE0LjkzMTQgMTguMzEzM0wxNC4wMjkyIDIwLjA4MTFMMTIuNDczNiAxOS4yODU5TDEzLjI2MzEgMjMuMTM4TDE2Ljg0OCAyMS41MjIxTDE1LjI3NTggMjAuNzE4NEwxNi4xOTggMTguOTExM0wxNi4xOTcgMTguOTExMUMxNi4zOTQ3IDE4Ljk1MjEgMTYuNTk5NiAxOC45NzM2IDE2LjgwOTQgMTguOTczNkMxNy4yOTE2IDE4Ljk3MzYgMTcuNzQ3MiAxOC44NTk4IDE4LjE1MDkgMTguNjU3N0wyMC43ODQyIDIyLjAxOTVMMTkuNDA1NSAyMy4xMTkzTDIzLjI0NjEgMjRaTTE2LjgwOTQgMTQuMzczNkMxNy42OTMxIDE0LjM3MzYgMTguNDA5NCAxNS4wODk5IDE4LjQwOTQgMTUuOTczNkMxOC40MDk0IDE2Ljg1NzMgMTcuNjkzMSAxNy41NzM2IDE2LjgwOTQgMTcuNTczNkMxNS45MjU4IDE3LjU3MzYgMTUuMjA5NCAxNi44NTczIDE1LjIwOTQgMTUuOTczNkMxNS4yMDk0IDE1LjA4OTkgMTUuOTI1OCAxNC4zNzM2IDE2LjgwOTQgMTQuMzczNloiIGZpbGw9IndoaXRlIi8+JiN4YTs8L3N2Zz4=;imageBackground=light-dark(#00CC00,#00CC00);imageBorder=light-dark(#00CC00,#00CC00);" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="310" y="660" as="geometry" />
-        </mxCell>
-        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Оформление страховок" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="tgdYflfAzIRZMizsvtaO-5">
-          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="tgdYflfAzIRZMizsvtaO-4" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=none;" target="-kysRog4aEAZWxmScUQe-4">
-            <mxGeometry relative="1" width="240" x="-0.2075" as="geometry">
+        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Оформление&#xa;страховок" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="tgdYflfAzIRZMizsvtaO-5">
+          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="UWbKbaMJiszxi6BcYqIE-0" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=none;" target="-kysRog4aEAZWxmScUQe-4">
+            <mxGeometry relative="1" width="240" x="-0.0403" as="geometry">
               <mxPoint as="offset" />
               <Array as="points">
                 <mxPoint x="440" y="700" />
-                <mxPoint x="440" y="627" />
+                <mxPoint x="440" y="610" />
               </Array>
-              <mxPoint x="170" y="697" as="sourcePoint" />
+              <mxPoint x="390" y="700" as="sourcePoint" />
               <mxPoint x="350" y="697" as="targetPoint" />
             </mxGeometry>
           </mxCell>
@@ -289,10 +283,10 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" id="tgdYflfAzIRZMizsvtaO-7">
-          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="-kysRog4aEAZWxmScUQe-5" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="tgdYflfAzIRZMizsvtaO-0">
+          <mxCell edge="1" parent="-kysRog4aEAZWxmScUQe-1" source="-kysRog4aEAZWxmScUQe-5" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;">
             <mxGeometry relative="1" width="240" as="geometry">
               <mxPoint x="880" y="-30" as="sourcePoint" />
-              <mxPoint x="880" y="60" as="targetPoint" />
+              <mxPoint x="610" y="100" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
@@ -323,7 +317,7 @@
         </object>
         <object placeholders="1" c4Name="ins.insures.insure-created" c4Type="Queue" c4Technology="Apache Kafka" c4Description="Информация об оформленных страховках" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="-dMQtiEu2yAnaKpoSLHE-0">
           <mxCell parent="-kysRog4aEAZWxmScUQe-1" style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=light-dark(#00CC00,#00CC00);metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=1;strokeWidth=4;" vertex="1">
-            <mxGeometry height="60" width="310" x="760" y="911" as="geometry" />
+            <mxGeometry height="60" width="310" x="760" y="930" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="Apache Kafka" c4Description="Информация об &#xa;оформленных страховках" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="-dMQtiEu2yAnaKpoSLHE-1">
@@ -331,7 +325,7 @@
             <mxGeometry relative="1" width="240" x="-0.1146" as="geometry">
               <mxPoint as="offset" />
               <Array as="points">
-                <mxPoint x="670" y="940" />
+                <mxPoint x="670" y="960" />
               </Array>
               <mxPoint x="2140" y="830" as="sourcePoint" />
               <mxPoint x="1340" y="930" as="targetPoint" />
@@ -343,8 +337,8 @@
             <mxGeometry relative="1" width="240" x="-0.1" as="geometry">
               <mxPoint as="offset" />
               <Array as="points">
-                <mxPoint x="1110" y="941" />
-                <mxPoint x="1110" y="941" />
+                <mxPoint x="1180" y="960" />
+                <mxPoint x="1180" y="960" />
               </Array>
               <mxPoint x="1450" y="1014" as="sourcePoint" />
               <mxPoint x="710" y="1151" as="targetPoint" />
@@ -392,6 +386,12 @@
             </mxGeometry>
           </mxCell>
         </object>
+        <mxCell id="UWbKbaMJiszxi6BcYqIE-0" parent="-kysRog4aEAZWxmScUQe-1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=light-dark(#00CC00,#00CC00);points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=job;labelBorderColor=none;" value="" vertex="1">
+          <mxGeometry height="108.9" width="113.44" x="280" y="639.0500000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="UWbKbaMJiszxi6BcYqIE-1" parent="-kysRog4aEAZWxmScUQe-1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=light-dark(#00CC00,#00CC00);points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=job;labelBorderColor=none;" value="" vertex="1">
+          <mxGeometry height="108.9" width="113.44" x="553.28" y="96.1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
