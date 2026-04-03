@@ -1,0 +1,38 @@
+minikube delete --all --purge
+minikube start --driver=docker
+
+
+minikube addons enable metrics-server
+#в minikube аддон metrics-server по умолчанию развертывается в пространстве имен kube-system
+minikube kubectl -- get deployment metrics-server -n namespace
+
+
+minikube kubectl -- apply -f deployment.yaml -n namespace
+minikube kubectl -- apply -f hpa.yaml -n namespace
+minikube kubectl -- get hpa -n namespace
+
+
+HELM
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+
+helm install prometheus-operator prometheus-community/kube-prometheus-stack -n namespace
+helm uninstall prometheus-operator -n namespace
+
+helm install my-prometheus-adapter prometheus-community/prometheus-adapter -n namespace -f values.yaml 
+helm uninstall my-prometheus-adapter -n namespace 
+
+
+Проброс портов
+kubectl port-forward service/scaletestapp-service 8080:80
+kubectl port-forward -n default prometheus-prometheus-operator-kube-p-prometheus-0 9090
+
+Dashboard
+minikube dashboard
+
+kubectl get --raw /apis/custom.metrics.k8s.io/v1beta1
+kubectl describe hpa
+
+http://localhost:8080/metrics
+http://localhost:9090/targets
+http://127.0.0.1:56075/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/event?namespace=default
